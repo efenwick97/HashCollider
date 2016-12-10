@@ -1,0 +1,7 @@
+Before you run the program change the directory to thesaurus and type make into console to build the thesaurus scripts. You only should need to do this once
+
+To include all dependancies run this g++ script, replace programName.cpp with the name of your file and executableName with the desired name of the executable to be generated
+
+----------------------------------------------------------
+
+g++ <programName.cpp> -o <executableName> hash_functions/md2.cpp hash_functions/md4.cpp hash_functions/md5.cpp hash_functions/sha1.cpp thesaurus/mythes.cxx -std=c++14
