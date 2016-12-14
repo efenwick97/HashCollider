@@ -7,9 +7,11 @@
 #include "MD2.h"
 #include "MD4.h"
 #include "MD5.h"
-//#include "SHA1.h"
+//#include "SHA1.h"	// c++14, not 11
 
 using namespace std;
+
+// Single sentence collision
 
 typedef unordered_map<string, string> stringmap;
 
