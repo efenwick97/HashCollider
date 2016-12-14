@@ -11,6 +11,8 @@
 
 using namespace std;
 
+// Two sentence collision
+
 typedef unordered_map<string, string> stringmap;
 
 /* 	Requires: vector<vector> of strings holding all possible synonyms, 0, empty stringmap,
