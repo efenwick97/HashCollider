@@ -11,7 +11,7 @@
 
 using namespace std;
 
-// Two sentence collision
+// Two sentence collision 
 
 typedef unordered_map<string, string> stringmap;
 
